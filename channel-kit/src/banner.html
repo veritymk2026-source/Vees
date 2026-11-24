@@ -1,0 +1,51 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&display=swap" rel="stylesheet">
+<style>
+html,body{margin:0;width:2560px;height:1440px;overflow:hidden;font-family:'Baloo 2',sans-serif}
+.bg{position:absolute;inset:0;background:#0B5D30}
+.pattern{position:absolute;inset:0;opacity:.09}
+/* kente bands near the very top & bottom (seen on TV/desktop only) */
+.kente{position:absolute;left:0;width:2560px;height:70px;
+  background:repeating-linear-gradient(90deg,#FFC933 0 60px,#D7263D 60px 76px,#FFC933 76px 120px,#1B1B1B 120px 136px,#0F7A3E 136px 196px,#1B1B1B 196px 212px)}
+.kente.t{top:150px}.kente.b{bottom:150px}
+/* cream band behind the all-devices safe area (y 508-931) */
+.band{position:absolute;left:0;top:455px;width:2560px;height:530px;background:#FFF3DA;
+  box-shadow:0 0 0 14px #FFC933, 0 0 0 26px #1B1B1B}
+.bandpat{position:absolute;left:0;top:455px;width:2560px;height:530px;opacity:.07}
+.m{position:absolute;left:555px;top:512px;width:395px;height:415px}
+.m svg{width:100%;height:100%}
+.txt{position:absolute;left:1030px;top:500px;width:1020px}
+.name{font-size:212px;font-weight:800;line-height:.9;color:#1B1B1B;letter-spacing:2px;
+  text-shadow:8px 8px 0 #FFC933}
+.tag{display:inline-block;margin-top:6px;background:#0B5D30;color:#FFC933;font-size:92px;font-weight:800;
+  line-height:1;padding:14px 34px 6px;border-radius:22px;border:7px solid #1B1B1B;transform:rotate(-2deg)}
+.sub{margin-top:22px;font-size:44px;white-space:nowrap;font-weight:600;color:#1B1B1B;line-height:1.15}
+.sub b{color:#D7263D;font-weight:800}
+.row{display:flex;align-items:center;gap:34px}
+.chip{transform:rotate(1.5deg);background:#D7263D;color:#fff;font-size:34px;font-weight:800;
+  padding:8px 26px 2px;border-radius:40px;border:5px solid #1B1B1B;letter-spacing:1px}
+</style></head><body>
+<div class="bg"></div>
+<svg class="pattern" width="2560" height="1440"><defs>
+  <pattern id="ad" width="180" height="180" patternUnits="userSpaceOnUse">
+    <g fill="none" stroke="#FFF3DA" stroke-width="10" stroke-linecap="round">
+      <!-- simplified Sankofa (heart) adinkra -->
+      <path d="M90 150 L40 95 Q20 60 50 45 Q75 35 80 60 Q82 75 68 75 M90 150 L140 95 Q160 60 130 45 Q105 35 100 60 Q98 75 112 75"/>
+      <path d="M90 150 L80 168 M90 150 L100 168"/>
+    </g>
+  </pattern></defs><rect width="2560" height="1440" fill="url(#ad)"/></svg>
+<div class="kente t"></div><div class="kente b"></div>
+<div class="band"></div>
+<svg class="bandpat" width="2560" height="530"><defs>
+  <pattern id="ad2" width="150" height="150" patternUnits="userSpaceOnUse" patternTransform="rotate(12)">
+    <g fill="none" stroke="#0B5D30" stroke-width="8" stroke-linecap="round">
+      <path d="M75 125 L33 80 Q17 50 42 38 Q63 30 67 50 Q68 62 57 62 M75 125 L117 80 Q133 50 108 38 Q87 30 83 50 Q82 62 93 62"/>
+    </g>
+  </pattern></defs><rect width="2560" height="530" fill="url(#ad2)"/></svg>
+<div class="m">{{MASCOT}}</div>
+<div class="txt">
+  <div class="name">SANKOFA</div>
+  <div class="row"><div class="tag">EXPLAINS</div><div class="chip">NEW VIDEOS EVERY WEEK</div></div>
+  <div class="sub">Ghana, explained. <b>The stories behind everyday life.</b></div>
+</div>
+</body></html>
