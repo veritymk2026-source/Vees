@@ -1,5 +1,5 @@
 # Every Ghanaian SHS Stereotype Explained
-**Sankofa Explains, Episode 1** · Narrator: Kofa · Target length: about 13 minutes (around 2,000 words at 150 words per minute)
+**Sankofa Explains, Episode 1** · Narrator: Kofa · Target length: about 12 minutes (around 1,800 spoken words at 150 words per minute)
 
 > Stage cues for the animator are in *[brackets]*; don't read them aloud.
 
@@ -234,7 +234,7 @@ Now you know where it came from. Go back, fetch it, come again.
 
 ## Production notes
 
-**Runtime:** about 2,000 words, roughly 13 minutes.
+**Runtime:** about 1,800 spoken words, roughly 12 minutes.
 
 **What's improved over the competitor's format:**
 
